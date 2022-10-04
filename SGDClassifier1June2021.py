@@ -109,7 +109,7 @@ def makePrediction(clf, vectorized, valsToNums):
 
 def test(clf, valsToNums):
     #The testing portion
-    test = pd.read_csv("comboTraining-test1JUne2021.tsv")
+    test = pd.read_csv("comboTraining-test1June2021.tsv")
     #process the testing data
     for index, vals in enumerate(valsToNums):
         test = test.replace(vals, index)
